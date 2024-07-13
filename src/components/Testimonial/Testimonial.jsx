@@ -16,9 +16,10 @@ const testimonialData = [
   },
   {
     id: 1,
-    name: "Sweta Aunty",
-    text: " The best thing is that they always treat me like their Aunty. that was the only thing that I enjoyed.                                                                                                                                                                                      ",
-    img: "https://picsum.photos/103/103",
+    name: "Sweta ",
+    text: "One of the standout features was the detailed reviews and ratings from other travelers, which helped me make informed decisions. The customer service team was also fantastic, responding promptly to my inquiries and providing helpful information.",
+
+     img: "https://picsum.photos/103/103",
   },
 ];
 
