@@ -11,24 +11,20 @@ const About = () => {
             About us
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-            ducimus cupiditate quo harum officia perspiciatis hic ut sunt
-            repudiandae, laboriosam expedita nostrum tempora, consectetur
-            itaque, voluptate error aperiam corrupti ullam aspernatur a!
-            Dolorem, reprehenderit amet quidem deleniti iure rem vel a enim
-            ipsam hic numquam consequatur eius id eaque accusamus repudiandae
-            impedit, quisquam non, harum inventore ratione? Tempora voluptatum
-            ut eligendi corrupti esse, repellat nesciunt illum facilis officiis?
-            Nisi quidem officiis asperiores nostrum ipsa maiores explicabo quia!
-            Corporis provident asperiores fuga eligendi rem temporibus possimus
-            autem excepturi! Facilis sunt corrupti nesciunt asperiores, ab
-            consectetur doloremque, velit a mollitia possimus quaerat!
+          Welcome to our travel hub, where your adventures begin with expert guidance 
+  and personalized experiences. We are passionate about connecting travelers 
+  with the world's most enchanting destinations, offering you the best tour 
+  guides to make your journey unforgettable. Our team is dedicated to ensuring 
+  that each trip is tailored to your unique interests, whether you're seeking 
+  cultural immersion, thrilling adventures, or serene escapes. With years of 
+  experience and a deep love for exploration, we are here to help you discover 
+  the world like never before.
           </p>
           <br />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
-            suscipit minus similique aliquam recusandae quisquam id nulla
-            tempora voluptate vero.
+          From the moment you book with us, our commitment to quality service and 
+  attention to detail ensures that your travels are seamless and enjoyable. 
+  Join us as we explore the globe, one unforgettable moment at a time.
           </p>
         </div>
       </div>

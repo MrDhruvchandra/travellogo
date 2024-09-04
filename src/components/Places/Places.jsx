@@ -12,7 +12,8 @@ const PlacesData = [
     img: Img1,
     title: "Boat",
     location: "USA",
-    description: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description: 
+      "Experience the tranquility of a scenic boat ride through some of the most picturesque waters in the USA, offering a perfect blend of relaxation and cultural exploration.",
     price: 6700,
     type: "Cultural Relax",
   },
@@ -30,7 +31,7 @@ const PlacesData = [
     title: "Underwater",
     location: "US",
     description:
-      "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
+      "Discover the mysteries of the deep with an underwater adventure, exploring vibrant marine life and stunning coral reefs, all while enjoying a serene escape.",
     price: 6200,
     type: "Cultural Relax",
   },
@@ -38,29 +39,31 @@ const PlacesData = [
     img: Img4,
     title: "Sydney",
     location: "USA",
-    description: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description: 
+      "Sydney offers a captivating mix of iconic architecture, stunning beaches, and vibrant culture, making it an ideal destination for those seeking both relaxation and adventure.",
     price: 6700,
     type: "Cultural Relax",
   },
   {
     img: Img5,
     title: "Los Angeles",
-    location: "United states",
+    location: "United States",
     description:
-      "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
+      "Explore the glamorous city of Los Angeles, where you can experience Hollywood’s glitz, stunning coastal views, and a thriving cultural scene.",
     price: 6700,
     type: "Cultural Relax",
   },
   {
     img: Img6,
-    title: "Los Vegas",
+    title: "Las Vegas",
     location: "California",
     description:
-      "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
+      "Las Vegas, the entertainment capital of the world, offers a dazzling array of attractions, from world-class shows to vibrant nightlife, all set against a backdrop of stunning desert landscapes.",
     price: 6200,
     type: "Cultural Relax",
   },
 ];
+
 
 const Places = ({ handleOrderPopup }) => {
   return (

@@ -1,9 +1,10 @@
 import React from "react";
 import FooterLogo from "../../assets/logo.png";
 import {
-  FaFacebook,
+  
   FaInstagram,
   FaLinkedin,
+  FaGithub,
   FaLocationArrow,
   FaMobileAlt,
 } from "react-icons/fa";
@@ -42,7 +43,7 @@ const Footer = () => {
           <source src={NatureVid} type="video/mp4" />
         </video>
         <div className="container">
-          <div className="grid md:grid-cols-3 py-5 bg-white/80 backdrop-blur-sm rounded-t-xl">
+          <div className="grid md:grid-cols-3 py-5 bg-transparent text-white backdrop-blur-sm rounded-t-xl">
             <div className="py-8 px-4">
               <h1 className="flex items-center gap-3 text-xl sm:text-3xl font-bold text-justify sm:text-left">
                 <img src={FooterLogo} alt="" className="max-h-[60px]" />
@@ -63,13 +64,13 @@ const Footer = () => {
               {/* social handles */}
               <div>
                 <div className="flex items-center gap-3 mt-6">
-                  <a href="https://www.instagram.com/dhruv.0.1.1.0/" target="blank">
+                  <a href="https://www.instagram.com/dhruv.0.1.1.0/" target="_blank">
                     <FaInstagram className="text-3xl" />
                   </a>
-                  <a href="#" target="blank">
-                    <FaFacebook className="text-3xl" />
-                  </a>
-                  <a href="https://www.linkedin.com/in/dhruvchandra-m-b71155229/" target="blank">
+                  <a href="https://github.com/MrDhruvchandra" target="_blank">
+                  <FaGithub className="text-3xl hover:text-primary duration-300" />
+                </a>
+                  <a href="https://www.linkedin.com/in/dhruvchandra-m-b71155229/" target="_blank">
                     <FaLinkedin className="text-3xl" />
                   </a>
                 </div>
@@ -140,7 +141,7 @@ const Footer = () => {
           </div>
           <div>
             <div className="text-center py-5 border-t-2 border-gray-300/50 bg-primary text-white">
-              @copyright 2024 All rights reserved Shaw Travels Pvt Ltd   || Made with ❤️ by Dhruv
+            © 2024 All rights reserved Shaw Travels Pvt Ltd   || Made with ❤️ by Dhruv
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Hero = () => {
-  const [priceValue, setPriceValue] = React.useState(30);
+  const [priceValue, setPriceValue] = React.useState(20000000);
 
   return (
     <div className=" bg-black/20 h-full">
@@ -33,7 +33,7 @@ const Hero = () => {
                   type="text"
                   name="destination"
                   id="destination"
-                  placeholder="Dubai"
+                  placeholder="Ex.Dubai"
                   className="w-full bg-gray-100 my-2 range accent-primary focus:outline-primary focus:outline outline-1 rounded-full p-2"
                 />
               </div>
@@ -52,7 +52,7 @@ const Hero = () => {
                 <label htmlFor="destination" className="opacity-70 block">
                   <div className="w-full flex justify-between items-center">
                     <p>Max Price</p>
-                    <p className="font-bold text-xl">$ {priceValue}</p>
+                    <p className="font-bold text-xl">Rs {priceValue}</p>
                   </div>
                 </label>
                 <div className=" bg-gray-100 rounded-full p-2 flex items-center justify-center ">
@@ -61,8 +61,8 @@ const Hero = () => {
                     name="destination"
                     id="destination"
                     className="appearance-none w-full bg-gradient-to-r from-primary to-secondary h-2 rounded-full my-2"
-                    min="150"
-                    max="1000"
+                    min="4000"
+                    max="200000"
                     value={priceValue}
                     step="10"
                     onChange={(e) => setPriceValue(e.target.value)}
